@@ -18,10 +18,10 @@ local copytoclip = Instance.new("TextButton")
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "simple anim-grabber";
-	Text = "Made by BlastingStone (V3rm UID: 464205)";
-	Icon = "rbxassetid://4492172626";
-	Duration = 20;
-	Button1 = "ok";
+    Text = "Made by BlastingStone (V3rm UID: 464205)";
+    Icon = "rbxassetid://4492172626";
+    Duration = 20;
+    Button1 = "ok";
     Button2 = "idc stfu";
 })
 
