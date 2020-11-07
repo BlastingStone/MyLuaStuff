@@ -79,11 +79,14 @@ if game.Players.LocalPlayer.Character ~= nil then
       end
     end
   end
+grab.Text = "grabbed!"
+wait(1.5)
+grab.Text = "grab anim from plr"
 end)
 
 copytoclip.MouseButton1Down:connect(function()
 setclipboard(animid.Text)
 copytoclip.Text = "copied!"
-wait(2)
+wait(1.5)
 copytoclip.Text = "copy2clipboard"
 end)
