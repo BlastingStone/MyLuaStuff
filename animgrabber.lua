@@ -83,4 +83,7 @@ end)
 
 copytoclip.MouseButton1Down:connect(function()
 setclipboard(animid.Text)
+copytoclip.Text = "copied!"
+wait(2)
+copytoclip.Text = "copy2clipboard"
 end)
