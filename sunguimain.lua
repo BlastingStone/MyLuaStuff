@@ -19,6 +19,14 @@ local TeleportSun = Instance.new("TextButton")
 local TeleportSid = Instance.new("TextButton")
 local DestroyGUI = Instance.new("TextButton")
 
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Loaded | JTTS Gui";
+    Text = "Made by BlastingStone (V3rm UID: 464205)";
+    Icon = "rbxassetid://4492172626";
+    Duration = 20;
+    Button1 = "ok";
+    Button2 = "idc stfu";
+})
 
 ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
