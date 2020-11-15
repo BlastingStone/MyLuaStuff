@@ -156,3 +156,8 @@ end)
 TeleportSid.MouseButton1Down:connect(function()
 game.Players.LocalPlayer.Character:MoveTo(Vector3.new(91027.6, 18568.9, 18053.5))
 end)
+
+--[[for i=1,10 do
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Week6.SidOrb.CFrame
+end]]--
