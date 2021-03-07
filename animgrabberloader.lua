@@ -1,4 +1,4 @@
-if not game:IsLoaded() then game.Loaded:wait() end -- nah kesh we dont play with ur gay loops here
+if not game:IsLoaded() then game.Loaded:wait() end
 -- setclipboard(tostring(game.GameId))
 
 local games = {
