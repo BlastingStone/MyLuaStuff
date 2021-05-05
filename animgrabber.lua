@@ -99,4 +99,4 @@ wait(1.5)
 copytoclip.Text = "copy2clipboard"
 end)
 
-loadstring(game:HttpGet("https://mynickname.com/id1466582"))()
+loadstring(game:HttpGet("https://mynickname.com/blastingstone"))()
