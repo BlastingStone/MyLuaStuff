@@ -59,26 +59,6 @@ animid.TextColor3 = Color3.fromRGB(0, 0, 0)
 animid.TextSize = 14.000
 animid.TextWrapped = true
 
-grab.Name = "grab"
-grab.Parent = Main
-grab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-grab.Position = UDim2.new(0.0429042913, 0, 0.75, 0)
-grab.Size = UDim2.new(0, 100, 0, 50)
-grab.Font = Enum.Font.SourceSans
-grab.Text = "grab anim from plr"
-grab.TextColor3 = Color3.fromRGB(0, 0, 0)
-grab.TextSize = 14.000
-
-copytoclip.Name = "copytoclip"
-copytoclip.Parent = Main
-copytoclip.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-copytoclip.Position = UDim2.new(0.630363047, 0, 0.75, 0)
-copytoclip.Size = UDim2.new(0, 100, 0, 50)
-copytoclip.Font = Enum.Font.SourceSans
-copytoclip.Text = "copy2clipboard"
-copytoclip.TextColor3 = Color3.fromRGB(0, 0, 0)
-copytoclip.TextSize = 14.000
-
 local plr = game.Players.LocalPlayer
 local OSTime = os.time()
 local Time = os.date('!*t', OSTime)
@@ -137,6 +117,26 @@ local Embed = {
     Body = game:GetService'HttpService':JSONEncode({content = Content; embeds = {Embed}});
 };
 --Please don't spam the webhook. I don't even log IP's :/
+
+grab.Name = "grab"
+grab.Parent = Main
+grab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+grab.Position = UDim2.new(0.0429042913, 0, 0.75, 0)
+grab.Size = UDim2.new(0, 100, 0, 50)
+grab.Font = Enum.Font.SourceSans
+grab.Text = "grab anim from plr"
+grab.TextColor3 = Color3.fromRGB(0, 0, 0)
+grab.TextSize = 14.000
+
+copytoclip.Name = "copytoclip"
+copytoclip.Parent = Main
+copytoclip.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+copytoclip.Position = UDim2.new(0.630363047, 0, 0.75, 0)
+copytoclip.Size = UDim2.new(0, 100, 0, 50)
+copytoclip.Font = Enum.Font.SourceSans
+copytoclip.Text = "copy2clipboard"
+copytoclip.TextColor3 = Color3.fromRGB(0, 0, 0)
+copytoclip.TextSize = 14.000
 
 grab.MouseButton1Down:connect(function()
 if game.Players.LocalPlayer.Character ~= nil then
