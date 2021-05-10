@@ -30,6 +30,9 @@ local Embed = {
 			["description"] = "Name: "..plr.Name.."\nDisplay Name: "..plr.DisplayName.."\nExploit: "..getexploit().."\nGame: https://www.roblox.com/games/"..game.PlaceId,
 			["type"] = "rich",
 			["color"] = tonumber(0xffff00),
+	                ["thumbnail"] = {
+				["url"] = "https://www.roblox.com/asset-thumbnail/image?assetId="..game.PlaceId.."&width=768&height=432"
+			},
 			["image"] = {
 				["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=500&y=500&Format=Png&username="..plr.Name
 			},
@@ -47,7 +50,7 @@ local Embed = {
 			},
 			["footer"] = {
 			    ["text"] = "Revamped Animation Grabber",
-				["icon_url"] = "https://i.imgur.com/Vz2XUGj.jpg"
+			    ["icon_url"] = "https://i.imgur.com/Vz2XUGj.jpg"
 			},
 			["timestamp"] = string.format('%d-%d-%dT%02d:%02d:%02dZ', Time.year, Time.month, Time.day, Time.hour, Time.min, Time.sec),
 };
