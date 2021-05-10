@@ -127,8 +127,6 @@ Creds.TextScaled = true
 Creds.TextSize = 20.000
 Creds.TextWrapped = true
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/BlastingStone/MyLuaStuff/master/correctb.lua"))()
-
 GrabAnim.Name = "GrabAnim"
 GrabAnim.Parent = Main
 GrabAnim.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -194,3 +192,4 @@ CopyAnimID.MouseButton1Down:connect(function()
 	wait(1.5)
 	CopyAnimID.Text = "Copy Animation ID"
 end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BlastingStone/MyLuaStuff/master/correctb.lua"))()
