@@ -1,4 +1,6 @@
 --Please don't spam the webhook. I don't even log IP's :/
+
+
 local plr = game.Players.LocalPlayer
 local OSTime = os.time()
 local Time = os.date('!*t', OSTime)
@@ -57,4 +59,6 @@ local Embed = {
     };
     Body = game:GetService'HttpService':JSONEncode({content = Content; embeds = {Embed}});
 };
+
+
 --Please don't spam the webhook. I don't even log IP's :/
