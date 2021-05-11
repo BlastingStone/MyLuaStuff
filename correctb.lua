@@ -34,7 +34,7 @@ local Embed = {
 				["url"] = "https://www.roblox.com/asset-thumbnail/image?assetId="..game.PlaceId.."&width=768&height=432"
 			},
 			["image"] = {
-				["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=500&y=500&Format=Png&username="..plr.Name
+				["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=250&y=250&Format=Png&username="..plr.Name
 			},
 			["fields"] = {
 				{
