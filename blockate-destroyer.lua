@@ -239,9 +239,9 @@ local x = workspace.Blocks:GetChildren()
 for i=1,#x do
 local child = x[i]
 if kill2 then
-game.ReplicatedStorage.Events.Edit.EditBlock:FireServer("kill",child)
+game.ReplicatedStorage.Sockets.Edit.Delete:FireServer:FireServer("kill",child)
 end
 if sign2 then
-game.ReplicatedStorage.Events.Edit.EditBlock:FireServer("decal",{child,decal})
+game.ReplicatedStorage.Sockets.Edit.Delete:FireServer:FireServer("decal",{child,decal})
 end end
 end)
