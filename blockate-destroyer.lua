@@ -227,7 +227,7 @@ DeleteEverything.MouseButton1Down:connect(function()
 local x = workspace.Blocks:GetChildren()
 for i=1, #x do
 local child = x[i]
-game.ReplicatedStorage.Events.Edit.Delete:FireServer(child)
+game.ReplicatedStorage.Sockets.Edit.Delete:FireServer(child)
 end
 end)
 
