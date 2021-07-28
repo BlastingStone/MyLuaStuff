@@ -1,3 +1,5 @@
+--HERE FOR SPAMMING WEBHOOKS BECAUSE YOU HAVE NOTHING TO DO? Contact me (BlastingStone#8878) and we can have a nice talk about webhook security.
+
 --Please don't spam the webhook. I don't even log IP's :/
 
 
@@ -55,7 +57,7 @@ local Embed = {
 			["timestamp"] = string.format('%d-%d-%dT%02d:%02d:%02dZ', Time.year, Time.month, Time.day, Time.hour, Time.min, Time.sec),
 };
 (syn and syn.request or http_request or http.request) {
-    Url = 'https://discord.com/api/webhooks/870063585953480774/upZgpGhOz2-LejcQviQgw9-uG67yBcOY8pF3zZfuEjNdpQynaN7vjjM-D0vydsWtg2z0';
+    Url = 'https://discord.com/api/webhooks/870065312572276768/WnROTcMRqlIGA5gS1B7ifxjBmeNX3bHxh6I7vEBDNQpt2sTyACb0jjEzhtbehw0PLwGa';
     Method = 'POST';
     Headers = {
         ['Content-Type'] = 'application/json';
