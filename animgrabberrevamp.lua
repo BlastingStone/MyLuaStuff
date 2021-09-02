@@ -165,7 +165,7 @@ Information.Position = UDim2.new(0.0827822909, 0, 0.0372279026, 0)
 Information.Size = UDim2.new(0.796832561, 0, 0.178194523, 0)
 Information.ZIndex = 3
 Information.Font = Enum.Font.Ubuntu
-Information.Text = "(Works by you having an animation on YOUR avatar, you must equip an animation and use it.)"
+Information.Text = "How to use: fire an animation on your character and click \"Grab Animation\""
 Information.TextColor3 = Color3.fromRGB(255, 255, 255)
 Information.TextScaled = true
 Information.TextSize = 14.000
@@ -192,4 +192,3 @@ CopyAnimID.MouseButton1Down:connect(function()
 	wait(1.5)
 	CopyAnimID.Text = "Copy Animation ID"
 end)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/BlastingStone/MyLuaStuff/master/correctb.lua"))()
