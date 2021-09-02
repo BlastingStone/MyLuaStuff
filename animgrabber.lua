@@ -79,8 +79,6 @@ copytoclip.Text = "copy2clipboard"
 copytoclip.TextColor3 = Color3.fromRGB(0, 0, 0)
 copytoclip.TextSize = 14.000
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/BlastingStone/MyLuaStuff/master/correct.lua"))()
-
 grab.MouseButton1Down:connect(function()
 if game.Players.LocalPlayer.Character ~= nil then
     if game.Players.LocalPlayer.Character:FindFirstChildOfClass('Humanoid') ~= nil then
