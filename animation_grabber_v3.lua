@@ -27,7 +27,7 @@ rconsoleprint(' / /_/ / / /_/ (__  ) /_/ / / / / /_/ /___/ / /_/ /_/ / / / /  __
 rconsoleprint('/_____/_/\\__,_/____/\\__/_/_/ /_/\\__, //____/\\__/\\____/_/ /_/\\___/')
 rconsoleprint('          animation grabber v3 /____/ Made by BlastingStone#8878')
 rconsoleprint('------------------------------------------------------------------')
-rconsoleprint('Hello! This is an animation grabber v3 console.\nIt is the output for animations you will log.\nHow to use the grabber: use an animation on your character (if you are in an emote game, press a button on the emote you need) and click \"grab animation\".\nThe ID, along with the link, will appear in this console or in the GUI. You can either copy it from the grabber by pressing \"copy id / link\" or from console.\nIf a standard Roblox animation appeared instead, try the same steps again until you will get the animation you need.')
+rconsoleprint('Hello! This is an animation grabber v3 console.\nIt is the output for animations you will log.\nHow to use the grabber: use an animation on your character (if you are in an emote game, press a button on the emote you need) and click \"grab animation\".\nThe ID, along with the link, will appear in this console or in the GUI. You can either copy it from the grabber by pressing \"copy id / link\" or from console.\nIf a standard Roblox animation appeared instead, try the same steps again until you will get the animation you need.\nIf you have any issues with the script, contact me on Discord: BlastingStone#8878\nglhf! :)')
 
 -- Below is what lets you steal ported animations
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BlastingStone/MyLuaStuff/master/universal_antisteal_bypass.lua"))()
