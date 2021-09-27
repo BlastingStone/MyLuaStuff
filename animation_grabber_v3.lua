@@ -20,14 +20,14 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 if not syn then rconsoleclear = function() end; rconsoleprint = function(a) print(a) end; rconsolename = function() end end -- Compatibility line
 rconsoleclear()
 rconsolename('animation grabber v3 - logs')
-rconsoleprint('    ____  __           __  _             _____ __                ')
-rconsoleprint('   / __ )/ /___ ______/ /_(_)___  ____ _/ ___// /_____  ____  ___')
-rconsoleprint('  / __  / / __ `/ ___/ __/ / __ \\/ __ `/\\__ \\/ __/ __ \\/ __ \\/ _ \\')
-rconsoleprint(' / /_/ / / /_/ (__  ) /_/ / / / / /_/ /___/ / /_/ /_/ / / / /  __/')
-rconsoleprint('/_____/_/\\__,_/____/\\__/_/_/ /_/\\__, //____/\\__/\\____/_/ /_/\\___/')
-rconsoleprint('          animation grabber v3 /____/ Made by BlastingStone#8878')
-rconsoleprint('------------------------------------------------------------------')
-rconsoleprint('Hello! This is an animation grabber v3 console.\nIt is the output for animations you will log.\nHow to use the grabber: use an animation on your character (if you are in an emote game, press a button on the emote you need) and click \"grab animation\".\nThe ID, along with the link, will appear in this console or in the GUI. You can either copy it from the grabber by pressing \"copy id / link\" or from console.\nIf a standard Roblox animation appeared instead, try the same steps again until you get the animation you need.\nIf you have any issues with the script, contact me on Discord: BlastingStone#8878\nglhf! :)')
+rconsoleprint('    ____  __           __  _             _____ __                \n')
+rconsoleprint('   / __ )/ /___ ______/ /_(_)___  ____ _/ ___// /_____  ____  ___\n')
+rconsoleprint('  / __  / / __ `/ ___/ __/ / __ \\/ __ `/\\__ \\/ __/ __ \\/ __ \\/ _ \\\n')
+rconsoleprint(' / /_/ / / /_/ (__  ) /_/ / / / / /_/ /___/ / /_/ /_/ / / / /  __/\n')
+rconsoleprint('/_____/_/\\__,_/____/\\__/_/_/ /_/\\__, //____/\\__/\\____/_/ /_/\\___/\n')
+rconsoleprint('          animation grabber v3 /____/ Made by BlastingStone#8878\n')
+rconsoleprint('------------------------------------------------------------------\n')
+rconsoleprint('Hello! This is an animation grabber v3 console.\nIt is the output for animations you will log.\nHow to use the grabber: use an animation on your character (if you are in an emote game, press a button on the emote you need) and click \"grab animation\".\nThe ID, along with the link, will appear in this console or in the GUI. You can either copy it from the grabber by pressing \"copy id / link\" or from console.\nIf a standard Roblox animation appeared instead, try the same steps again until you get the animation you need.\nIf you have any issues with the script, contact me on Discord: BlastingStone#8878\nglhf! :)\n')
 
 -- Below is what lets you steal ported animations
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BlastingStone/MyLuaStuff/master/universal_antisteal_bypass.lua"))()
@@ -250,7 +250,7 @@ GrabAnimID.MouseButton1Down:Connect(function()
 		if Humanoid then
 			for Index, AnimTrack in ipairs(Humanoid:WaitForChild("Animator"):GetPlayingAnimationTracks()) do
 				Counter = Counter + 1
-				rconsoleprint('Animation #'..Counter..': https://roblox.com/library/'..string.match(AnimTrack.Animation.AnimationId, "%d+"))
+				rconsoleprint('Animation #'..Counter..': https://roblox.com/library/'..string.match(AnimTrack.Animation.AnimationId, "%d+")..'\n')
 				Output.Text = "https://roblox.com/library/"..string.match(AnimTrack.Animation.AnimationId, "%d+")
 			end
 		else
