@@ -249,9 +249,9 @@ GrabAnimID.MouseButton1Down:Connect(function()
 		local Humanoid = Character:FindFirstChildOfClass('Humanoid')
 		if Humanoid then
 			for Index, AnimTrack in ipairs(Humanoid:WaitForChild("Animator"):GetPlayingAnimationTracks()) do
-				Output.Text = "https://roblox.com/library/"..string.match(AnimTrack.Animation.AnimationId, "%d+")
 				Counter = Counter + 1
-				rconsoleprint('Animation #'..Counter..': https://roblox.com/library/'..string.match(AnimTrack.Animation.AnimationId, "%d+")
+				rconsoleprint('Animation #'..Counter..': https://roblox.com/library/'..string.match(AnimTrack.Animation.AnimationId, "%d+"))
+				Output.Text = "https://roblox.com/library/"..string.match(AnimTrack.Animation.AnimationId, "%d+")
 			end
 		else
 			msg(GrabAnimID, "no humanoid found!", "grab animation", 1)
