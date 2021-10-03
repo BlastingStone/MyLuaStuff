@@ -266,22 +266,3 @@ CopyAnimID.MouseButton1Down:Connect(function()
 	setclipboard(Output.Text)
 	msg(CopyAnimID, "copied!", "copy animation id / link", 1.5)
 end)
-
-local ExploitRequest = request or http_request or syn and syn.request
-local HS = game.HttpService
-
-ExploitRequest({
-    Url = "http://127.0.0.1:6463/rpc?v=1",
-    Method = "POST",
-    Headers = {
-        ["Content-Type"] = "application/json",
-        ["Origin"] = "https://discord.com"
-    },
-    Body = HS:JSONEncode({
-        cmd = "INVITE_BROWSER",
-        args = {
-            code = "qqTJJqG7sH",
-        },
-        nonce = HS:GenerateGUID(false)
-    }),
-}) --syn x nonsense
