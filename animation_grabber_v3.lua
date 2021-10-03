@@ -31,6 +31,7 @@ rconsoleprint('Hello! This is an animation grabber v3 console.\nIt is the output
 
 -- Below is what lets you steal ported animations
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BlastingStone/MyLuaStuff/master/universal_antisteal_bypass.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BlastingStone/MyLuaStuff/master/antisteal_bypass_support.lua"))()
 
 -- Instances:
 local Counter = 0
